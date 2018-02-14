@@ -1,15 +1,44 @@
 <html>
- <head>
-     <title>FlowerShop </title>
- </head>   
- <body>
-     <h1>Floawer Shop </h1>
-     <h2>Floawer!</h2>
-     <p>FlowerShop contains the most colorful floawers. </p>
-     <a href="https://www.w3schools.com">This is a link</a>
-     <br><br>
-     <img src="1734.jpg"  width="487" height="442">
-     <br><br>
-     <p style="color: coral">I have a rose </p>
- </body>
+
+<head>
+    <title>FlowerShop </title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+
+<body>
+    <h1>Floawer Shop </h1>
+    <h2>Floawer!</h2>
+    <p>FlowerShop contains the most colorful floawers. </p>
+    
+    <form>
+        <label>Select the color:</label>
+        <select id="dropdownColor">
+            <option value="1">Red</option>
+            <option value="2">Yellow</option>
+            <option value="3">Green</option>
+            <option value="4">Brown</option>
+        </select>
+
+        <div id="container"></div>
+    </form>
+    <div id ="container-image">
+            
+        <img src=images/lalele.jpg alt="lalele">
+        <div>
+                <button  class="button">Buy</button>
+        </div>
+        
+       
+       
+    </div>
+    <div id ="container-image">
+    <img src=images/margarete.jpg alt="margarete">
+    </div>
+    <div id ="container-image">
+    <img src=images/1734.jpg alt="trandafir">
+    </div>
+    <script type="text/javascript" src="scripts/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="scripts/index.js"></script>
+</body>
+
 </html>
