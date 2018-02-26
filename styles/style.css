@@ -1,64 +1,75 @@
+body {
+    background-color: rgb(231, 186, 171);
+    margin: 0;
+}
+
 p {
     border: 1px solid coral;
 }
 
-.big-font {
-    font: bold;
-    font-size: 20px;
-}
-
-.container {
-    width: 100%;
+h1{
     text-align: center;
-    background-color: cornflowerblue;
 }
 
-.float-left {
+.navbar{
+  overflow: hidden;
+  background-color: indianred;
+  position: initial;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar a {
     float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .navbar a:hover {
+    background: rgb(104, 68, 68);
+    color: black;
+  }
+
+  .navbar a.active {
+    background-color: rgb(133, 69, 69);
+    color: rgb(104, 68, 68);
+  }
+
+  div.gallery {
+    margin: 50px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 320px;
 }
 
-.float-right {
-    float: right;
+div.gallery:hover {
+    border: 1px solid #777;
 }
 
-
-.inner-container {
-    width: 30%;
-    height: 100%;
-    background-color: cyan;
-}
-
-#container {
+div.gallery img {
     width: 100%;
-    height: 100px;
+    height: 35%;
 }
 
-#container-image{
-    width: 350px;
-    height: 350px;
+div.desc {
+    padding: 10px;
+    text-align: center;
 }
 
-#container-button{
-    width: 200px;
-    height: 3500px;
-}
-img {
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
-    
-}
-
-.button{
-    background-color: cornflowerblue;
+.button {
+    background-color:rgb(104, 68, 68);
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin:4px 2 px;
+    display:inherit;
+    font-size: 14px;
+    margin: 4px 2px;
     cursor: pointer;
-    
 }
+ 
